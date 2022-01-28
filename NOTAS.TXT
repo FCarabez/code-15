@@ -1,3 +1,4 @@
+NOTAS
 // Terminal Linux
 // Comandos de Linux
 // Windows -> Powershell
