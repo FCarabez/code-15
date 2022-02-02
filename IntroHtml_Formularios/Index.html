@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contaco</title>
+</head>
+<body>
+    <!-- Post: enviar información a un servidor y Get: recibir información-->
+    <form action="contacto.html" method="get">
+
+    <label for="nombre">Ingresa tu nombre:</label>
+    <input type="text" name="nombre" id="nombre" />
+    <br>
+    <label for="edad">Ingresa tu edad:</label>
+    <input type="number" name="edad" id="edad"/>
+    <br>
+    <label for="correo">Ingresa tu correo:</label>
+    <input type="email" name="correo" id="correo">
+    <br>
+    <label for="checkbox">¿Ya tomaste agua hoy?:</label>
+    <input type="checkbox" name="checkbox" id="checkbox1" value="si">Sí
+    <input type="checkbox" name="checkbox" id="checkbox2" value="no">No
+    <br>
+    <p>Animal favorito</p>
+    <input type="radio" name="animal" id="perro">
+    <label for="perro">Perro</label>
+    <br>
+    <input type="radio" name="animal" id="gato">
+    <label for="gato">Gato</label>
+    <br>
+    <label for="Color">Selecciona tu color favorito:</label>
+    <input type="color" name="color" id="color">
+    <br>
+    <label for="fecha de nacimiento">Ingresa tu fecha de nacimiento:</label>
+    <br>
+    <input type="date" name="date" id="date">
+    <br>
+    <label for="biografía">¿Que te gusta?</label>
+    <br>
+    <textarea name="biografía" id="biografía"></textarea>
+    <br>
+    <label for="Curso">Selecciona el curso de tu interés:</label>
+    <br>
+    <select name="cursos" id="cursos">
+        <!--Lo que se manda al servidor es lo que viene dentro del value-->
+        <option value="Master en Coding">Master en Codign</option>
+        <option value="Data Science">Data Science</option>
+    </select>
+    <br>
+    <label for="file">Adjunta tu CV:</label>
+    <input type="file" name="file" id="file">
+    <br>
+    <button type="Submit">Enviar</button>
+    <br>
+    <input type="checkbox" name="terminos" id="terminos">Acepto terminos y condiciones
+</form>
+</body>
+</html>

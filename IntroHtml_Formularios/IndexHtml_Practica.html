@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+<h1>Contacto</h1>
+    <form action="Contacto.html" method="post">
+
+<label for="nombre">Nombre (s):</label>
+<input type="text" name="nombre" id="nombre">
+<br>
+<label for="apellido">Apellido Materno:</label>
+<input type="text" name="apellido" id="materno">
+<br>
+<label for="apellido">Apellido Paterno:</label>
+<input type="text" name="apellido" id="paterno">
+<br>
+<label for="correo">Correo electrónico:</label>
+<input type="email" name="correo" id="correo">
+<br>
+<label for="edad">Edad:</label>
+<input type="number" name="edad" id="edad">
+<br>
+<p><h4>Género</h4></p>
+<input type="radio" name="genero" id="masculino">
+<label for="genero">Masculino:</label>
+<input type="radio" name="genero" id="femenino">
+<label for="genero">Femenino:</label>
+<input type="radio" name="genero" id="otro">
+<label for="genero">Otro</label>
+<input type="text" name="genero" id="otro genero">
+<label for="genero"></label>
+<br>
+<label for="contraseña">Contraseña</label>
+<input type="password" name="contraseña" id="contraseña">
+<br>
+<label for="seleccion de curso">Selecciona el módulo de tu interés:</label>
+<br>
+<select name="cursos" id="cursos">
+    <!--Lo que se manda al servidor es lo que viene dentro del value-->
+    <option value="Selecciona">---Selecciona un módulo---</option>
+    <option value="Kata Intro a la Web">Kata Intro a la Web</option>
+    <option value="Kata JS">Kata JS</option>
+    <option value="Kata Computer Science">Kata Computer Science</option>
+</select>
+<br>
+<label for="Color">Selecciona tu color favorito:</label>
+<input type="color" name="color" id="color">
+<br>
+<input type="checkbox" name="compartir" id="compartir">Acepto compartir mis datos con este sitio.
+<br>
+<input type="checkbox" name="compartir" id="compartir">Acepto que ya le agarré la onda.
+<br>
+<button type="Submit">Enviar</button>
+</form>
+</body>
+</html>
